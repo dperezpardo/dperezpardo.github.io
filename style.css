@@ -1,0 +1,37 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #2bd5e9;
+}
+
+.con-user{
+  padding-top: 10px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  padding-bottom: 10px;
+  border-radius: 0px 0px 40px 0px;
+}
+
+.con.user .title{
+  text-align: center;
+  width: 100%;
+}
+
+.con.user .title h1{
+  font-size: 1.1rem;
+  padding: 0px 0px;
+}
+
+.con.user .title p{
+  font-size: .9rem;
+  opacity: .6;
+  padding: 6px 10px;
+}
+
+.con.user .title p a{
+  color: rgb(var(--text));
+}
