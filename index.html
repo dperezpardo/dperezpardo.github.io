@@ -4,17 +4,96 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>Links Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darwin Perez Pardo</title>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="con-user">
-      <div class="avatar">
-          <img src="avatar.png" alt="">
+      <div class="content">
+          <div class="con-user">
+              <div class="avatar">
+                  <img src="avatar.png" alt="">
+              </div>
+              <div class="title">
+                  <h1>
+                      @dperezpardo
+                  </h1>
+                  <p>
+                      Ingeniero de Sistemas <br> Developer Web and Developer Avaya Orchestration Designer
+                  </p>
+              </div>
+          </div>
+          <div class="con-menu">
+              <button onclick="handleClick(event, 'con-links')" class="active">
+                  Links
+              </button>
+              <button onclick="handleClick(event, 'con-posts')">
+                  Certificates
+              </button>
+          </div>
+          <div class="con-contents">
+              <div class="con-links">
+                <a target="_blank" href="https://www.linkedin.com/in/darwin-p-51210a15a/">
+                    <i class='bx bxl-linkedin'></i>
+                    <span>
+                        LinkedIn
+                    </span>
+                </a>
+                <a target="_blank" href="https://github.com/dperezpardo/">
+                    <i class='bx bxl-github'></i>
+                    <span>
+                        Github
+                    </span>
+                </a>
+                <a target="_blank" href="https://www.instagram.com/daperpa/">
+                    <i class='bx bxl-instagram-alt'></i>
+                    <span>
+                        Instagram
+                    </span>
+                </a>
+              </div>
+
+
+
+              <div class="con-posts">
+                  <a class="post" target="_blank" href="#">
+                      <div class="con-file">
+                          <img src="CertiProf-Badge-SFPC.png" alt="">
+                      </div>
+
+                      <footer>
+                          <h3>
+                              <i class='bx bxl-linkedin'></i>
+                              LinkedIn
+                          </h3>
+                          <p>
+                              CertiProf Badge SFPC
+                          </p>
+                      </footer>
+
+                      <div class="effect"></div>
+                  </a>
+                  <a class="post" target="_blank" href="https://www.instagram.com/p/CDJZd0Jinp9/">
+                      <div class="con-file">
+                          <img src="CertiProf-Badge-SDPC.png" alt="">
+                      </div>
+
+                      <footer>
+                          <h3>
+                              <i class='bx bxl-linkedin'></i>
+                              LinkedIn
+                          </h3>
+                          <p>
+                              CertiProf Badge SFPC
+                          </p>
+                      </footer>
+
+                      <div class="effect"></div>
+                  </a>
+              </div>
+          </div>
       </div>
-      <div class="title">
-        <h1>@dperezpardo</h1>
-        <p>Ingeniero de Sistemas </p>
-      </div>
-    </div>
+      <script src="script.js"></script>
   </body>
 </html>
